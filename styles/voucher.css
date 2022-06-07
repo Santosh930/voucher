@@ -1,0 +1,31 @@
+*{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#navbar>div{
+    margin: auto;
+}
+a{
+    margin: 20px;
+}
+
+#voucher_list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+img{
+    height: 300px;
+    width: 300px;
+}

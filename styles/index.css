@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#navbar>div{
+    margin: auto;
+}
+a{
+    margin: 20px;
+}
+form{
+    background-color: bisque;
+    
+    width:40% ;
+    margin: auto;
+
+}
+input{
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+}
+#submit{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}

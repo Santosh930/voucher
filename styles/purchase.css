@@ -1,0 +1,20 @@
+*{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    
+    font-size: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#navbar>div{
+    margin: auto;
+}
+a{
+    margin: 20px;
+}
